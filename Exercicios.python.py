@@ -15,3 +15,16 @@ lista_produtos = ['máscaras faciais', 'batons', 'esmaltes', 'perfumes', 'loçõ
 
 for produto in lista_produtos:
     print("Temos", produto, "à venda!")
+
+
+
+
+# Outra opção de fazer 
+# Imprimir cada um dos ítens da lista
+for i in range(len(lista_produtos)):
+  print(lista_produtos[i])
+
+
+# Concatenar os ítens da lista com a frase "Temos [produto] à venda!"
+for i in range(len(lista_produtos)):
+  print('Temos ' + lista_produtos[i] + ' à venda!')
